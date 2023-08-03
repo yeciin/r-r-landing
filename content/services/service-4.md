@@ -1,28 +1,14 @@
 ---
-title: "How to make toys from old Olarpaper"
+title: "International Logistics"
 description: "Heading example Here is example of hedings. You can use this heading by following markdownify rules."
 image: "/images/service-4.jpg"
 date: 2022-07-04T05:00:00Z
 draft: false
 ---
 
-##### Heading example
+manage the logistics and transportation of goods, coordinating shipping, customs procedures.
 
-Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
----
 
 ##### Emphasis
 
