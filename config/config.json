@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "R&R International Trading",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
@@ -12,7 +12,7 @@
   "settings": {
     "pagination": 4,
     "summary_length": 200,
-    "blog_folder": "blogs"
+    "service_folder": "services"
   },
 
   "nav_button": {
@@ -22,7 +22,7 @@
   },
 
   "params": {
-    "contact_form_action": "",
+    "contact_form_action": "https://enoiyma5ihxy.x.pipedream.net",
     "tag_manager_id": "",
     "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
     "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"

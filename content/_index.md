@@ -1,7 +1,7 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
+  title: Let us solve your critical distribution challenges
+  content: At R&R, we are your premier international trading partner, offering a wide range of services to connect businesses across borders. Whether you are a small start-up or a multinational corporation, we have the expertise and resources to facilitate your global trade endeavors.
   image: /images/banner-art.svg
   button:
     label: "Contact Us"

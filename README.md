@@ -35,8 +35,8 @@
 ## 📄 9+ Pre-Designed Pages
 
 - 🏠 Home Page
-- 📚 Blog Page
-- 📝 Blog Single Page
+- 📚 Service Page
+- 📝 Service Single Page
 - 📞 Contact Page
 - 📄 Features Page
 - ❓ FAQ Page

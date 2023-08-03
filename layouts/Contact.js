@@ -16,6 +16,7 @@ const Contact = ({ data }) => {
               className="contact-form"
               method="POST"
               action={contact_form_action}
+              target="dummyframe"
             >
               <div className="mb-3">
                 <input
@@ -69,6 +70,7 @@ const Contact = ({ data }) => {
           </div>
         </div>
       </div>
+      <iframe name="dummyframe" id="dummyframe" className="hidden"></iframe>
     </section>
   );
 };
