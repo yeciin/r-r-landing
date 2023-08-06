@@ -22,12 +22,8 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "text": "Quick Start",
-          "url": "#"
+          "text": "About",
+          "url": "/about"
         }
       ]
     },
@@ -35,33 +31,18 @@
       "name": "Product",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Services",
+          "url": "services"
         }
       ]
     },
     {
       "name": "Support",
       "menu": [
+
         {
-          "text": "About",
-          "url": "/about"
-        },
-        {
-          "text": "Privacy Policy",
-          "url": "#"
-        },
-        {
-          "text": "Terms & Conditions",
-          "url": "#"
+          "text": "Contact Us",
+          "url": "contact"
         }
       ]
     }
