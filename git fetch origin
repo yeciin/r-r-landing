@@ -1,0 +1,131 @@
+[33mcommit f08ace1f1c5bd2d81e8ad8027c5bd986bc733754[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: yeciin <yasshafez@gmail.com>
+Date:   Fri Aug 4 22:18:52 2023 +0300
+
+    Fixed services page and first part of landing 2
+
+[33mcommit 4f089d497535f0032048eb8101ce1f667866a343[m
+Author: yeciin <yasshafez@gmail.com>
+Date:   Fri Aug 4 22:09:17 2023 +0300
+
+    Fixed services page and first part of landing
+
+[33mcommit 18de89dd9661ae564eb38139743149c6271d0099[m
+Author: yeciin <yasshafez@gmail.com>
+Date:   Fri Aug 4 00:31:15 2023 +0300
+
+    Added text
+
+[33mcommit c39b19587eabc956457c68370f75d15865ffa934[m
+Author: Hadi <h.hassan@fleetrunnr.com>
+Date:   Fri Aug 4 00:08:23 2023 +0300
+
+    Added about page
+
+[33mcommit 2d75f983f21a7ad59d4ad96ded383a5b45e02b14[m
+Author: yeciin <yasshafez@gmail.com>
+Date:   Thu Aug 3 23:16:23 2023 +0300
+
+    Changed some stuff
+
+[33mcommit 2fe365196906dbfcecdc803f09c62e2c33d8f573[m
+Author: Md Nuruzzaman <112462267+tflijon@users.noreply.github.com>
+Date:   Sat May 20 09:56:28 2023 +0600
+
+    Update README.md
+
+[33mcommit c06799876252e9de2102d9e9dd826542fc38bcae[m
+Author: somrat sorkar <themefisher.dev@gmail.com>
+Date:   Wed Dec 14 11:22:25 2022 +0600
+
+    modified minor issues
+
+[33mcommit fff0605a930d9a88158b307af58e60e2a171e988[m
+Author: somrat sorkar <themefisher.dev@gmail.com>
+Date:   Wed Dec 14 09:59:50 2022 +0600
+
+    fixed minor bugs
+
+[33mcommit a0c16dcd2095aac7711c3764c2190e1209e8195e[m
+Author: somrat sorkar <themefisher.dev@gmail.com>
+Date:   Mon Dec 12 16:36:35 2022 +0600
+
+    added license and contact form action
+
+[33mcommit db61fcb79db0f858cf7335403dba8d0d85cfd623[m
+Author: Md Nuruzzaman <112462267+tflijon@users.noreply.github.com>
+Date:   Mon Dec 12 14:46:52 2022 +0600
+
+    edit keyfeatures
+
+[33mcommit 394f45f01effb3839fda18f38e2b8b998055c985[m
+Author: Md Nuruzzaman <112462267+tflijon@users.noreply.github.com>
+Date:   Mon Dec 12 13:14:24 2022 +0600
+
+    article edit
+
+[33mcommit d37f5b9e57a91d2eaf9c2a3b8ade97c8e7ce8c43[m
+Author: Md Nuruzzaman <112462267+tflijon@users.noreply.github.com>
+Date:   Mon Dec 12 13:04:33 2022 +0600
+
+    add key features
+
+[33mcommit 0bc31d26269a493989ae3abb8166c2c283afdd34[m
+Author: Md Nuruzzaman <112462267+tflijon@users.noreply.github.com>
+Date:   Mon Dec 12 12:35:45 2022 +0600
+
+    update some link
+
+[33mcommit 32126f81ecb65c214fa54c227fa8087169d6186c[m
+Author: Md Nuruzzaman <112462267+tflijon@users.noreply.github.com>
+Date:   Mon Dec 12 11:59:28 2022 +0600
+
+    update article
+
+[33mcommit 4023efa15a5b0bae0c5c9a05705933d3451103fb[m
+Author: Tfferdous <ferdous.themefisher@gmail.com>
+Date:   Sun Dec 11 17:05:50 2022 +0600
+
+    update conde-base and remove   unused  file
+
+[33mcommit b0cace4b83b4cf6004c82e793047cb651d10616e[m
+Author: Tfferdous <ferdous.themefisher@gmail.com>
+Date:   Sun Dec 11 15:53:34 2022 +0600
+
+    added missing dolar sign to pricing card
+
+[33mcommit 8dd7f10d05882217ca335cace51cd7fffa5828e5[m
+Author: Tfferdous <ferdous.themefisher@gmail.com>
+Date:   Sun Dec 11 15:47:55 2022 +0600
+
+    change banner image
+
+[33mcommit 408e197d07198c6e7ae5443ffc266ae3139aaa72[m
+Author: Tfferdous <ferdous.themefisher@gmail.com>
+Date:   Sun Dec 11 13:32:39 2022 +0600
+
+    fixed heading sequnce and logo position
+
+[33mcommit 420e7067ff0e6e829ffc821ccd753051136d3ab6[m
+Author: Tfferdous <ferdous.themefisher@gmail.com>
+Date:   Sun Dec 11 12:06:22 2022 +0600
+
+    checking feedbacks  and cleanup code
+
+[33mcommit f77728365fda9bdb9e3b8dfa5b244f70c82266f6[m
+Author: somrat sorkar <themefisher.dev@gmail.com>
+Date:   Sun Dec 11 09:54:54 2022 +0600
+
+    update package.json and minimal mistakes fixed.
+
+[33mcommit 085f9230e5d0da19c4ee2a01bd8b1db1bf70ce5f[m
+Author: somrat sorkar <themefisher.dev@gmail.com>
+Date:   Fri Dec 9 16:51:27 2022 +0600
+
+    modified build command
+
+[33mcommit 78d92d8dfd5b52a5dfdaa98395fe24736bac5f99[m
+Author: somrat sorkar <themefisher.dev@gmail.com>
+Date:   Fri Dec 9 16:48:58 2022 +0600
+
+    initialize template
