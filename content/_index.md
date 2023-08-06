@@ -34,6 +34,7 @@ feature:
 # workflow
 workflow: 
   title: "Experience the best workflow with us"
+  image: "/images/banner.svg"
   description: ""
 
 # call_to_action
