@@ -75,7 +75,6 @@ const Home = ({ frontmatter }) => {
         </div>
       </section>
 
-
       {/* workflow */}
       <section className="section pb-0">
         <div className="mb-8 text-center">
@@ -86,12 +85,6 @@ const Home = ({ frontmatter }) => {
           )}
           {markdownify(workflow.description, "p", "mt-3")}
         </div>
-        <Image
-          src={workflow.image}
-          alt="workflow image"
-          width={1920}
-          height={296}
-        />
       </section>
 
       {/* Cta */}
