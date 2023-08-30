@@ -1,0 +1,91 @@
+// schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+}
+model Product {
+  id       String @id @default(cuid())
+  name     String
+  quantity Int
+  price    Int
+  supplier Supplier @relation(fields: [supplierid], references: [id])
+  supplierid String
+  clientorderproducts ClientOrderProducts[]
+  supplierorderproducts SupplierOrderProducts[]
+
+  @@map(name: "products")
+}
+model Supplier{
+  id String @id @default(cuid())
+  name     String
+  email    String
+  phone    String
+  address  String
+  city     String
+  country  String
+  order SupplierOrder[]
+  product Product[]
+  
+  @@map(name: "suppliers")
+}
+
+model Client {
+  id String @id @default(cuid())
+  name     String
+  email    String
+  phone    String
+  address  String
+  city     String
+  country  String
+  order ClientOrder[]
+  @@map(name: "clients")
+}
+
+model ClientOrder{
+id String @id @default(cuid())
+client Client @relation(fields: [clientid], references: [id])
+clientid String
+price Int
+daterecieved DateTime
+datesent DateTime
+@@map(name: "clientorders")
+}
+
+model SupplierOrder{
+id String @id @default(cuid())
+supplier Supplier @relation(fields: [supplierid], references: [id])
+supplierid String
+price Int
+daterecieved DateTime
+@@map(name: "supplierorders")
+}
+
+model ClientOrderProducts{
+  clientorderid String @id @default(cuid())
+  product Product @relation(fields: [productid], references: [id])
+  productid String
+}
+
+model SupplierOrderProducts{
+  supplierorderid String @id @default(cuid())
+  product Product @relation(fields: [productid], references: [id])
+  productid String
+}
+
+
+
+// model User {
+//   id        String   @id @default(cuid())
+//   name      String?
+//   email     String?  @unique
+//   createdAt DateTime @default(now()) @map(name: "created_at")
+//   updatedAt DateTime @updatedAt @map(name: "updated_at")
+
+//   @@map(name: "users")
+// }
