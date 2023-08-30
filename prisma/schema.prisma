@@ -10,19 +10,19 @@ datasource db {
   directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
 model Product {
-  id       String @id @default(cuid())
+  id       Int @id @default(autoincrement())
   name     String
   quantity Int
   price    Int
   supplier Supplier @relation(fields: [supplierid], references: [id])
-  supplierid String
+  supplierid Int
   clientorderproducts ClientOrderProducts[]
   supplierorderproducts SupplierOrderProducts[]
 
   @@map(name: "products")
 }
 model Supplier{
-  id String @id @default(cuid())
+  id Int @id @default(autoincrement())
   name     String
   email    String
   phone    String
@@ -36,7 +36,7 @@ model Supplier{
 }
 
 model Client {
-  id String @id @default(cuid())
+  id Int @id @default(autoincrement())
   name     String
   email    String
   phone    String
@@ -48,9 +48,9 @@ model Client {
 }
 
 model ClientOrder{
-id String @id @default(cuid())
+id Int @id @default(autoincrement())
 client Client @relation(fields: [clientid], references: [id])
-clientid String
+clientid Int
 price Int
 daterecieved DateTime
 datesent DateTime
@@ -58,30 +58,30 @@ datesent DateTime
 }
 
 model SupplierOrder{
-id String @id @default(cuid())
+id Int @id @default(autoincrement())
 supplier Supplier @relation(fields: [supplierid], references: [id])
-supplierid String
+supplierid Int
 price Int
 daterecieved DateTime
 @@map(name: "supplierorders")
 }
 
 model ClientOrderProducts{
-  clientorderid String @id @default(cuid())
+  clientorderid Int @id @default(autoincrement())
   product Product @relation(fields: [productid], references: [id])
-  productid String
+  productid Int
 }
 
 model SupplierOrderProducts{
-  supplierorderid String @id @default(cuid())
+  supplierorderid Int @id @default(autoincrement())
   product Product @relation(fields: [productid], references: [id])
-  productid String
+  productid Int
 }
 
 
 
 // model User {
-//   id        String   @id @default(cuid())
+//   id        String   @id @default(autoincrement())
 //   name      String?
 //   email     String?  @unique
 //   createdAt DateTime @default(now()) @map(name: "created_at")
