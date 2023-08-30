@@ -8,6 +8,6 @@ info:
   contacts: 
     - "phone 1: +961 03 373 297"
     - "phone 2: +961 71 147 434"
-    - "Mail: [info@rnrinternational.com](mailto:info@rnrinternational.com)"
+    - "Mail: [info@rrtrading.me](mailto:info@rrtrading.me)"
     - "Address: Hadat, Beirut, Lebanon"
 ---
